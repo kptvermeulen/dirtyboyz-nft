@@ -1,0 +1,33 @@
+.notRevealedContainer {
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  height: calc(100% - 70px);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partiesColumns .container {
+  position: relative;
+}
+
+.notRevealedText {
+  color: rgb(102, 102, 102) !important;
+}
+.nRContainer {
+  z-index: 150;
+  margin: auto;
+  width: 180px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+.exAccesContainer {
+  border: 2px solid rgba(235, 0, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px;
+  width: 190px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: var(--font);
+  color: rgba(235, 0, 255, 1);
+}
+
+.valueContainer {
+  height: 450px;
+}
+.valueContainer .column11 {
+  height: 100%;
+}
+.valueContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.phoneImage {
+  position: absolute;
+  bottom: -0px;
+}
+.desktopImage {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.imageContainer {
+  position: relative;
+  bottom: -25px;
+  height: 100%;
+}

@@ -1,0 +1,40 @@
+.commitmentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+.commitmentTabs {
+  display: flex;
+}
+.commitmentTab {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.commitmentTab p {
+  font-size: 18px;
+}
+.cTabUnderline {
+  height: 3px;
+  width: 100%;
+  background-color: #eb00ff;
+  margin-top: -10px;
+}
+.commitmentParagraph {
+  max-width: 500px;
+  margin-left: 10px;
+}
+
+.commitmentIcon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  border-radius: 500px;
+}
+.commitmentGrid .container h3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}

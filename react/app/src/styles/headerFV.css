@@ -1,0 +1,105 @@
+.headerFV {
+  grid-template-columns: 400px 1fr;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.headerContent {
+}
+
+.headerCarouselContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.headerCirclePink {
+  position: absolute;
+  width: 544px;
+  height: 544px;
+  left: 0px;
+  top: 0px;
+
+  background: #eb00ff;
+  opacity: 0.2;
+  filter: blur(353px);
+  z-index: -1;
+}
+
+.headerCirclePurple {
+  position: absolute;
+  width: 544px;
+  height: 544px;
+  left: 400px;
+  top: 100px;
+
+  background: #7000ff;
+  opacity: 0.2;
+  filter: blur(353px);
+  z-index: -1;
+}
+
+.headerCarousel {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 200px;
+  height: calc(100% - 150px);
+  margin-bottom: 100px;
+}
+
+.corouselShow {
+  width: 400px;
+}
+.corouselThumbnails {
+  opacity: 0.5;
+  width: 800px;
+  left: 650px;
+  position: absolute;
+}
+.corouselInfo {
+  width: 250px;
+  height: 200px;
+  margin-bottom: 200px;
+  margin-left: 50px;
+}
+.infoSlide p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.corouselThumbnails .maskSlide img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px !important;
+  opacity: 0.5;
+}
+.corouselShow .maskSlide img {
+  width: 400px;
+  height: auto;
+}
+.progressBar {
+  height: 3px;
+  width: 100px;
+  background-color: rgba(102, 6, 111, 1);
+  position: absolute;
+  top: 140px;
+}
+.progressBarInside {
+  height: 3px;
+  width: 100px;
+  background-color: #eb00ff;
+  position: absolute;
+  top: 0px;
+}
+.infoSlide p {
+  margin-top: -0px;
+  margin-bottom: 50px;
+}
+
+.slideArrow {
+  margin-left: 15px;
+  margin-top: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.CTAContainer {
+  width: 100vw;
+  background-color: #111111;
+  padding: 75px 0px;
+  overflow: hidden;
+  position: relative;
+}
+.CTAContainer .maxWidthContainer {
+  position: relative;
+}
+.CTAContent {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.CTAContent .btn {
+  width: 100px;
+  margin-top: 30px;
+}
+.mask1 {
+  position: absolute;
+  top: -250px;
+  right: 300px;
+  width: 400px;
+  height: 400px;
+}
+.mask2 {
+  position: absolute;
+  bottom: -300px;
+  right: 100px;
+  width: 400px;
+  height: 400px;
+}
